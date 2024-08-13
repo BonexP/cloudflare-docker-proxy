@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker2.l3on.pw": dockerHub,
+  "docker.l3on.pw": dockerHub,
   "quay.l3on.pw": "https://quay.io",
   "gcr.l3on.pw": "https://gcr.io",
   "k8s-gcr.l3on.pw": "https://k8s.gcr.io",
@@ -17,7 +17,7 @@ const routes = {
   "ecr.l3on.pw": "https://public.ecr.aws",
 
   // staging
-  "docker2-staging.l3on.pw": dockerHub,
+  "docker-staging.l3on.pw": dockerHub,
 };
 
 function routeByHosts(host) {
